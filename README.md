@@ -10,6 +10,7 @@
 - (vi) matrix of the graph
 
 ```R
+install.packages("igraph")
 library(igraph)
 g <- graph.formula(1-2, 1-3, 2-3, 2-4, 3-5, 4-5, 4-6,4-7, 5-6, 6-7)
 
